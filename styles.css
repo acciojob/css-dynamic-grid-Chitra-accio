@@ -4,11 +4,10 @@ body{
 	background-color:black;
 }
 .grid-container{
-	display:flex;
-	flex-direction:row;
+	display:block;
+	grid-gap:10px 10px;
 	justify-content:center;
-	flex-wrap:wrap;
-	
+	align-items:center;
 }
 .grid-item{
 	width:200px;
